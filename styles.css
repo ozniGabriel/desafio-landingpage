@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&family=Sarala&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+}
+
+body{
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%)
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo{
+  height: 74px;
+}
+
+.navigation{
+  display: flex;
+  gap: 32px;
+}
+
+.navigation a{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 7px;
+}
+
+.navigation a:hover{
+  opacity: 1;
+  background-color:#2F2325;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  border-top: #FFF2E7 1px solid;
+}
+
+.first-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 55px;
+}
+
+.info-first-section{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info-first-section h1{
+  font-family: 'Righteous';
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.info-first-section p{
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.info-first-section button{
+  color: #2F2325 ;
+  background-color: #ECD6C4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 170px;
+  height: 51px;
+  padding: 5px;
+}
+
+.info-first-section button:hover {
+  background-color: rgb(194, 50, 146);
+  color: #FFF2E7;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+  font-size: 18px;
+  gap: 13px;
+}
+
+.second-section p{
+  font-family: 'Righteous';
+  font-size: 24px;
+  font-weight: 400;
+  padding: 40px;
+  border-top: #FFF2E7 1px solid;
+}
+
+.image-footer{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 40px;
+  border-top: #FFF2E7 1px solid;
+}
