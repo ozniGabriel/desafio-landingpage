@@ -1,7 +1,7 @@
 function showMenu(){
-  document.querySelector('.menu').style = "visibility: visible"
+  document.querySelector('.navigation').style = "display: flex"
 }
 
-function destroyMenu(){
-  document.querySelector('.menu').style = "visibility: hidden"
+function hiddenMenu(){
+  document.querySelector('.navigation').style = "visibility: hidden"
 }

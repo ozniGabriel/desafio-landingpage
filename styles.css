@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&family=Sarala&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Sarala', sans-serif;
@@ -35,6 +35,7 @@ header{
   font-weight: 400;
   opacity: 0.8;
   padding: 7px;
+  visibility: visible;
 }
 
 .navigation a:hover{
@@ -42,7 +43,7 @@ header{
   background-color:#2F2325;
 }
 
-/* RESPONSIVIDADE */
+/* HAMBURGUER */
 .container{
   display: flex;
 }
@@ -64,26 +65,7 @@ header{
   margin: 2px;
   border: none;
 }
-
-.navigation-responsive{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
-  padding-top: 10px;
-}
-
-.menu{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  padding: 7px;
-  visibility: hidden;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-}
+/* HAMBURGUER */
 
 #exit{
   background-color: black;
@@ -92,9 +74,9 @@ header{
   font-family: 'Sarala';
   font-size: 20px;
   color: rgb(243, 21, 21);
+  display: none;
 }
 
-/* RESPONSIVIDADE */
 
 main{
   display: flex;
@@ -170,15 +152,28 @@ main{
   
 }
 
-@media (max-width: 730px) {
+
+@media (max-width: 770px) {
   .container label{
     display: inline;
   }
   .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    background: black;
+    right: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
     display: none;
   }
 
-  .first-section{
-    flex-direction: column;
+
+  #exit{
+    display: flex;
   }
+
 }
