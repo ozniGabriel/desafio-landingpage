@@ -11,7 +11,8 @@
 }
 
 body{
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%)
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  
 }
 
 header{
@@ -149,31 +150,4 @@ main{
   padding: 50px;
   margin-top: 40px;
   border-top: #FFF2E7 1px solid;
-  
-}
-
-
-@media (max-width: 770px) {
-  .container label{
-    display: inline;
-  }
-  .navigation{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    background: black;
-    right: 0%;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-    display: none;
-  }
-
-
-  #exit{
-    display: flex;
-  }
-
 }

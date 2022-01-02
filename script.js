@@ -1,7 +1,13 @@
-function showMenu(){
-  document.querySelector('.navigation').style = "display: flex"
+const btnExit = document.querySelector('#exit')
+const menuHamburguer = document.querySelector('#menu')
+
+const showMenu = () => {
+  document.querySelector('.navigation').style = 'display: flex'
 }
 
-function hiddenMenu(){
-  document.querySelector('.navigation').style = "visibility: hidden"
+const hiddenMenu = () => {
+  document.querySelector('.navigation').style = 'visibility: hidden'
 }
+
+btnExit.addEventListener('click', hiddenMenu)
+menuHamburguer.addEventListener('click', showMenu)
