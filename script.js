@@ -1,8 +1,8 @@
 const btnExit = document.querySelector('#exit')
-const menuHamburguer = document.querySelector('#menu')
+const menuHamburguer = document.querySelector('.menu')
 
 const showMenu = () => {
-  document.querySelector('.navigation').style = 'display: flex'
+  document.querySelector('.navigation').style = 'display: flex;'
 }
 
 const hiddenMenu = () => {

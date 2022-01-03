@@ -44,29 +44,14 @@ header{
   background-color:#2F2325;
 }
 
-/* HAMBURGUER */
-.container{
-  display: flex;
-}
-
-.container input{
-  display: none;
-}
-
-
-.container label{
+/* MENU HAMBURGUER */
+.menu{
+  font-size: 45px;
+  transform: rotate(90deg);
   cursor: pointer;
   display: none;
-  transform: rotate(90deg);
-  position: absolute;
 }
-.container span{
-  background-color: #FFF2E7;
-  padding: 2px;
-  margin: 2px;
-  border: none;
-}
-/* HAMBURGUER */
+/* MENU HAMBURGUER */
 
 #exit{
   background-color: black;

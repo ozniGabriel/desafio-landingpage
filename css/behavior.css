@@ -1,6 +1,6 @@
-@media (max-width: 770px) {
-  .container label{
-    display: inline;
+@media (max-width: 830px) {
+  .menu{
+    display: flex;
   }
   .navigation{
     display: flex;
@@ -15,6 +15,7 @@
     height: 100vh;
     z-index: 1000;
     display: none;
+    transition: all 5s;
   }
 
   #exit{
