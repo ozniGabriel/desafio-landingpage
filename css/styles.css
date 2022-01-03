@@ -12,8 +12,7 @@
 
 body{
   background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-  margin: 0px;
-  
+
 }
 
 header{
@@ -30,6 +29,7 @@ header{
 .navigation{
   display: flex;
   gap: 32px;
+
 }
 
 .navigation a{
@@ -37,7 +37,6 @@ header{
   font-weight: 400;
   opacity: 0.8;
   padding: 7px;
-  visibility: visible;
 }
 
 .navigation a:hover{
@@ -48,6 +47,7 @@ header{
 /* MENU HAMBURGUER */
 .menu{
   font-size: 45px;
+  padding: 10px;
   transform: rotate(90deg);
   cursor: pointer;
   display: none;
@@ -55,13 +55,13 @@ header{
 /* MENU HAMBURGUER */
 
 #exit{
-  background-color: black;
-  color: #fafafa;
-  border: none;
-  font-family: 'Sarala';
-  font-size: 20px;
+  font-size: 70px;
   color: rgb(243, 21, 21);
   display: none;
+  position: relative;
+  margin-top: -20px;
+  left: 130px;
+  cursor: pointer;
 }
 
 

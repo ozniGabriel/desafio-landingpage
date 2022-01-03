@@ -10,12 +10,12 @@
     top: 0px;
     padding-top: 20px;
     background: black;
-    right: 0%;
+    right: 0px;
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    display: none;
-    transition: all 5s;
+    visibility: hidden;
+    opacity: 0;
   }
 
   #exit{
